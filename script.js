@@ -13,6 +13,11 @@ checkInputs();
 
 submitButton.onclick = function() {
     var gender = document.querySelector('input[name="gender"]:checked').value;
-    alert(gender);
+    var age = document.querySelector('input[id="age"]').value;
+    var height = document.querySelector('input[id="height"]').value;
+    var weight = document.querySelector('input[id="weight"]').value;
+    var activity = document.querySelector('input[name="activity"]:checked').value;
+
+    alert(activity);
     return false;
   };
