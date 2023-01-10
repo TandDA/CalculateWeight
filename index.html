@@ -10,7 +10,7 @@
     <main>
         <article>
             <h1 class="header_text">Счётчик калорий</h1>
-            <form>
+            <form class="formFirst">
                 <div>
                     <h2 class="heading">Пол</h2>
                     <ul class="switcher">
@@ -77,7 +77,7 @@
                 </div>
                 <h2 class="heading">Физическая активность</h2>
                 <div>
-                    <ul class="radios-group">
+                    <ul class="radios-group" style="list-style-type: none;">
                         <li class="radio">
                           <div class="radio_wrapper">
                             <input id="activity-minimal" name="activity" value="min" type="radio" checked="" required="">
@@ -145,6 +145,24 @@
                     </span>
                   </button>
                 </div>
+                <p id="answer"></p>
+            </form>
+            <form id="secondForm" class="formSecond hideSecondForm">
+              <h2 class="heading">Ваша норма калорий</h2>
+              <div class="weightResults">
+                <div>
+                  <p id="keepWeight" class="weightResult"></p>
+                  <label for="keepWeight" class="weightLabel"> поддержание веса </label>
+                </div>
+                <div>
+                  <p id="loseWeight" class="weightResult"></p>
+                  <label for="loseWeight" class="weightLabel"> снижение веса </label>
+                </div>
+                <div>
+                  <p id="getWeight" class="weightResult"></p>
+                  <label for="getWeight" class="weightLabel"> набор веса </label>
+                </div>
+              </div>
             </form>
             <script src="script.js"></script>
         </article>
