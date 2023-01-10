@@ -16,15 +16,12 @@ body {
     padding-bottom: 25px;
     font-style: normal;
   }
-form{
-    margin-bottom: 20px;
-    padding-top: 39px;
-    padding-bottom: 43px;
+.formFirst{
     border-radius: 16px;
     padding: 32px 32px;
     background-color: white;
     width: 500px;
-    height: 900px;
+    height: 750px;
     margin: auto;
 }
 .heading{
@@ -99,4 +96,35 @@ form{
 }
 .radios-group li{
     margin: 20px 0;
+}
+.formSecond{
+    border-radius: 16px;
+    padding: 32px 32px;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+.formSecond .heading{
+    font-size: 32px;
+    line-height: 41px;
+    color: #ff7528;
+}
+.hideSecondForm{
+    display: none;
+}
+.weightResults{
+    display: flex;
+    margin-right: 80px;
+    gap: 20px;
+    justify-content: space-around;
+}
+.weightLabel{
+    color: gray;
+}
+.weightResult{
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 400;
 }
